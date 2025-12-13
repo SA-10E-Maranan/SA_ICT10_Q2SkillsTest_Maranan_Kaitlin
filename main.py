@@ -35,7 +35,7 @@ club_info = {
             "music": {
                 "name": "Harmonic Enchanters",
                 "level": "Novice/Beginners",
-                "description": "Magical music club; casters channel magic through sound to heal, inspire.",
+                "description": "Magical music club; casters channel magic through sound.",
                 "meeting_time": "Every Thursday, 2:00 to 3:30 PM",
                 "location": "The Starveil Hall",
                 "advisor": "Professor Zina Dawnveil",
@@ -187,4 +187,5 @@ def show_club_info(e):
         
         Category: {info['category']}
             """
+
     display(output, target="club-info")
