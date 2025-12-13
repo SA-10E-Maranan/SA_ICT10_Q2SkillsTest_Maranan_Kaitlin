@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starveil Guilds Information</title>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+
+        body {
+            background-image: url("bg.jpg");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        h1 {
+            color: rgb(255, 255, 255);
+            font-weight: lighter;
+            font-style: italic;
+            font-family: DM Serif Display;
+            text-align: center;
+            text-shadow:0px 0px 30px #fff, 1px 1px 10px #280488;
+            border-bottom: 2px solid white;
+            padding-bottom: 10px;
+        }
+        select, button {
+            padding: 10px;
+            margin: 10px 0;
+            width: 100%;
+            border: 1px solid #0d0080;
+            border-radius: 4px;
+            background-color: white;
+            color: #261c4a;
+        }
+        button {
+            background-color: #c1b3f3;
+            color: #261c4a;
+            font-family: Raleway;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #a089f3;
+        }
+        #club-info {
+            font-family: Raleway;
+            background-color: white;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+            color:  #f1f0f5;
+            font-size: 12px;
+            width: 50%;
+            margin: 20px auto;
+            text-align: left;
+        }
+        label {
+            color:  white;
+            font-family: Raleway;
+            font-weight: bold;
+            text-align: center;
+        }
+        option {
+            padding: 5px;
+            font-family: Raleway;
+        }
+        #club-select {
+            font-family: Raleway;
+        }
+        .center-container {
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Starveil Guilds Information</h1>
+    <br>
+    <div style="background-color: rgba(1, 1, 15, 0.301); margin-left: 50px; margin-right: 50px; border-radius: 20px;">
+    <div class= "center-container">
+    <br>
+    <label style="text-align: center;">Select a guild</label>
+    <br>
+    <select id="club-select" style="width: 50%; ">
+        <option value="">-- Select a guild --</option>
+        <option value="plants">Verdant Circle (Novice)</option>
+        <option value="potions">Crucible & Cauldron Society (Novice)</option>
+        <option value="brooms">Broombornes (Novice)</option>
+        <option value="music">Harmonic Enchanters (Novice)</option>
+        <option value="animals">Creatures' Keepers (Novice)</option>
+        <option value="threads">Glimmering Threads (Novice)</option>
+        <option value="conjure">Miniature Conjurors (Novice)</option>
+        <option value="dark">Shadowmancy (Scholars)</option>
+        <option value="light">Radiant Conclave (Scholars)</option>
+        <option value="elements">Elementalists (Scholars)</option>
+        <option value="spells">Duelity (Scholars)</option>
+        <option value="illusion">Illusionists Atelier (Scholars)</option>
+        <option value="time">Chronomancers (Elite)</option>
+        <option value="mind">Dominus Cognitia (Elite)</option>
+        <option value="reality">Realis Nexus (Elite)</option>
+    
+    </select>
+    <br>
+
+    <button id="show-info" py-click="show_club_info" style="width: 50%;">Show Guild Information</button>
+    </div>
+
+    <div class= "center-container">
+    <pre id="club-info"></pre>
+    <br>
+    </div>
+
+    <script type="py" src="main.py"></script>
+    </div>
+</body>
+
+</html>
