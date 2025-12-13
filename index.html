@@ -56,6 +56,8 @@
             margin-top: 20px;
             border-left: 4px solid #776af0;
             color:  #261c4a;
+            font-size: 12px;
+            width: 50%;
         }
         label {
             color:  white;
@@ -70,14 +72,10 @@
             font-family: Raleway;
 
         }
-        #club-info{
-            font-size: 12px;
-            width: 50%;
-        }
-
-      .center-container {
-            width: fit-content;   /* or a fixed width */
-            margin: 0 auto;
+        .center-container {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
         }
     </style>
 </head>
@@ -111,12 +109,14 @@
     <button id="show-info" py-click="show_club_info" style="width: 50%;">Show Guild Information</button>
     </div>
 
-    <div class=center-container>
-    <pre id="club-info"></pre></div>
+    <div class= center-container>
+    <pre id="club-info"></pre>
+    </div>
     <script type="py" src="main.py"></script>
 </body>
 
 </html>
+
 
 
 
