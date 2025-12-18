@@ -135,7 +135,7 @@ club_info = {
             "mind": {
                 "name": "Dominus Cognitia",
                 "level": "Elite/Master",
-                "description": "Mind magic mental manipulation.",
+                "description": "Mind magic and mental manipulation.",
                 "meeting_time": "Every Monday, 2:00 to 4:30 PM",
                 "location": "The Starveil Sanctum",
                 "advisor": "Professor Veylor Shade",
@@ -189,6 +189,7 @@ def show_club_info(e):
             """
 
     display(output, target="club-info")
+
 
 
 
