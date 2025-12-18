@@ -35,7 +35,7 @@ club_info = {
             "music": {
                 "name": "Harmonic Enchanters",
                 "level": "Novice/Beginners",
-                "description": "Magical music club; casters channel magic through sound.",
+                "description": "Casters channel magic through sound.",
                 "meeting_time": "Every Thursday, 2:00 to 3:30 PM",
                 "location": "The Starveil Hall",
                 "advisor": "Professor Zina Dawnveil",
@@ -45,7 +45,7 @@ club_info = {
             "animals": {
                 "name": "Creatures' Keepers",
                 "level": "Novice/Beginners",
-                "description": "Casters care for and bond with magical creatures.",
+                "description": "Casters care for magical creatures.",
                 "meeting_time": "Every Thursday, 3:15 to 4:30 PM",
                 "location": "The Moonpetal Conservatory",
                 "advisor": "Mistress Calla Fenwood",
@@ -55,7 +55,7 @@ club_info = {
             "threads": {
                 "name": "Glimmering Threads",
                 "level": "Novice/Beginners",
-                "description": "Beginner crafting with minor enchantments.",
+                "description": "Beginner crafting with enchantments.",
                 "meeting_time": "Every Tuesday, 3:45 to 5:00 PM",
                 "location": "The Looming Room",
                 "advisor": "Professor Kael Emberwind",
@@ -75,7 +75,7 @@ club_info = {
             "dark": {
                 "name": "Shadowmancy",
                 "level": "Scholars/Advanced",
-                "description": "Casters study shadow manipulation and dark magic.",
+                "description": "Casters study dark magic.",
                 "meeting_time": "Every Tuesday, 2:00 to 3:30 PM",
                 "location": "The Obsidian Training Alcove",
                 "advisor": "Professor Malrik Duskveil",
@@ -85,7 +85,7 @@ club_info = {
             "light": {
                 "name": "Radiant Conclave",
                 "level": "Scholars/Advanced",
-                "description": "Advanced light magic for advanced casters.",
+                "description": "Advanced light magic for casters.",
                 "meeting_time": "Every Tuesday, 3:45 to 5:00 PM",
                 "location": "The Luminara Training Hall",
                 "advisor": "Professor Solara Brightflame",
@@ -95,7 +95,7 @@ club_info = {
             "elements": {
                 "name": "Elementalists",
                 "level": "Scholars/Advanced",
-                "description": "Control of fire, water, air, and earth magic at advanced levels.",
+                "description": "Control of fire, earth, water, and air.",
                 "meeting_time": "Every Thursday, 2:00 to 3:30 PM",
                 "location": "The Starveil Forest Ground",
                 "advisor": "Professor Terra Auralis",
@@ -105,7 +105,7 @@ club_info = {
             "spells": {
                 "name": "Duelity",
                 "level": "Scholars/Advanced",
-                "description": "Focus on spell-casting and combat magic",
+                "description": "Focus on spell-casting and combat magic.",
                 "meeting_time": "Every Friday, 3:00 to 4:45 PM",
                 "location": "The Starveil Court",
                 "advisor": "Professor Vaelor Thorne",
@@ -115,7 +115,7 @@ club_info = {
             "illusion": {
                 "name": "Illusionists Atelier",
                 "level": "Scholars/Advanced",
-                "description": "Advanced illusion creation",
+                "description": "Advanced illusion creation.",
                 "meeting_time": "Every Thursday, 3:45 to 5:00 PM",
                 "location": "The Mirage Practice Grounds",
                 "advisor": "Professor Selric Voidspire",
@@ -135,7 +135,7 @@ club_info = {
             "mind": {
                 "name": "Dominus Cognitia",
                 "level": "Elite/Master",
-                "description": "Mind magic, telepathy, mental influence, memory manipulation.",
+                "description": "Mind magic mental manipulation.",
                 "meeting_time": "Every Monday, 2:00 to 4:30 PM",
                 "location": "The Starveil Sanctum",
                 "advisor": "Professor Veylor Shade",
@@ -145,7 +145,7 @@ club_info = {
             "reality": {
                 "name": "Aetherial Nexus",
                 "level": "Elite/Master",
-                "description": "Reality-bending, spatial manipulation, teleportation, and interdimensional studies.",
+                "description": "Reality-bending and interdimensional studies.",
                 "meeting_time": "Every Wednesday, 2:00 to 5:00 PM",
                 "location": "The Grand Chamber",
                 "advisor": "Professor Seraphine Voidweaver",
@@ -189,6 +189,7 @@ def show_club_info(e):
             """
 
     display(output, target="club-info")
+
 
 
 
