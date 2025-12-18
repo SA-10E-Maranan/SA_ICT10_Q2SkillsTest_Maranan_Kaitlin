@@ -25,7 +25,7 @@ club_info = {
             "brooms": {
                 "name": "Broombornes",
                 "level": "Novice/Beginners",
-                "description": "Learn broom-riding and magical racing techniques.",
+                "description": "Learn magical broom-riding.",
                 "meeting_time": "Every Wednesday, 2:30 to 4:00 PM",
                 "location": "The Skybound Rings",
                 "advisor": "Coach Leon Galehart",
@@ -189,5 +189,6 @@ def show_club_info(e):
             """
 
     display(output, target="club-info")
+
 
 
