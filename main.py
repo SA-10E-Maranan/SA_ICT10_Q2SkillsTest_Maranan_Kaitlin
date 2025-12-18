@@ -5,7 +5,7 @@ club_info = {
             "plants": {
                 "name": "Verdant Circle",
                 "level": "Novice/Beginners",
-                "description": "Casters learn the basics of magical plants and herbology.",
+                "description": "Casters learn the basics of magical herbology.",
                 "meeting_time": "Every Monday, 2:00 to 3:30 PM",
                 "location": "The Sylvan Conservatory",
                 "advisor": "Professor Thalia Greenroot",
@@ -25,8 +25,7 @@ club_info = {
             "brooms": {
                 "name": "Broombornes",
                 "level": "Novice/Beginners",
-                "description": "Learn broom-riding, aerial teamwork, and 
-                magical racing techniques.",
+                "description": "Learn broom-riding and magical racing techniques.",
                 "meeting_time": "Every Wednesday, 2:30 to 4:00 PM",
                 "location": "The Skybound Rings",
                 "advisor": "Coach Leon Galehart",
@@ -66,7 +65,7 @@ club_info = {
             "conjure": {
                 "name": "Miniature Conjurors",
                 "level": "Novice/Beginners",
-                "description": "Introductory summoning and control of small magical constructs or tiny creatures.",
+                "description": "Introductory summoning of small objects.",
                 "meeting_time": "Every Wednesday, 2:00 to 3:30 PM",
                 "location": "The Starveil Hall",
                 "advisor": "Professor Liora Spellbind",
@@ -190,4 +189,5 @@ def show_club_info(e):
             """
 
     display(output, target="club-info")
+
 
